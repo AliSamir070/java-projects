@@ -1,0 +1,32 @@
+import java.util.HashSet;
+import java.util.LinkedHashSet;
+import java.util.Set;
+
+public class App {
+
+	public static void main(String[] args) {
+		//Hashset doesn't retain the order
+			Set<String> set1 = new HashSet<String>();
+			//LinkedHashSet remember the order of items you enterd
+			Set<String> set2 = new LinkedHashSet<String>();
+			set1.add("Dog");
+			set1.add("Cat");
+			set1.add("Mouse");
+			set1.add("Bear");
+			set1.add("Fox");
+			System.out.println(set1);
+			// Adding duplicate item does nothing
+			
+			set1.add("Mouse");
+			System.out.println(set1);
+			
+			set2.add("Dog");
+			set2.add("Cat");
+			set2.add("Mouse");
+			set2.add("Bear");
+			set2.add("Fox");
+			System.out.println(set2);
+			
+	}
+
+}

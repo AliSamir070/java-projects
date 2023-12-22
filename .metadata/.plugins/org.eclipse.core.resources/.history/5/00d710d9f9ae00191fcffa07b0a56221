@@ -1,0 +1,16 @@
+import java.util.HashSet;
+import java.util.Set;
+
+public class App {
+
+	public static void main(String[] args) {
+			Set<String> set1 = new HashSet<String>();
+			set.add("Dog");
+			set.add("Cat");
+			set.add("Mouse");
+			set.add("Bear");
+			set.add("Fox");
+			System.out.println(set1);
+	}
+
+}

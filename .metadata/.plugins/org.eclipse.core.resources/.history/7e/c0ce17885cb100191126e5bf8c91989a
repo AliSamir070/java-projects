@@ -1,0 +1,31 @@
+import java.util.NoSuchElementException;
+import java.util.Queue;
+import java.util.concurrent.ArrayBlockingQueue;
+
+public class App {
+
+	public static void main(String[] args) {
+		Queue<Integer> q1 = new ArrayBlockingQueue<Integer>(3);
+		q1.add(10);
+		q1.add(20);
+		q1.add(30);
+		try {
+		q1.add(40);
+		}catch(IllegalStateException e) {
+			System.out.println("Try to add many items in the queue");
+		}
+		for(Integer val: q1) {
+			System.out.println("The Queue value is: " + val);
+		}
+		System.out.println("Removed value from queue: " + q1.remove());
+		System.out.println("Removed value from queue: " + q1.remove());
+		System.out.println("Removed value from queue: " + q1.remove());
+		try {
+			System.out.println("Removed value from queue: " + q1.remove());
+		}catch(NoSuchElementException e) {
+			System.out.println("Tried to remove many element from the queue");
+		}
+		
+	}
+
+}

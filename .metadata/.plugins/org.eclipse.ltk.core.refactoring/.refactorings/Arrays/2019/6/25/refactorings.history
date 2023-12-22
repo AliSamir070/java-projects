@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;grid&apos; in &apos;App.main(...)&apos; to &apos;matrix&apos;&#x0D;&#x0A;- Original project: &apos;Arrays&apos;&#x0D;&#x0A;- Original element: &apos;App.main(String[]).grid&apos;&#x0D;&#x0A;- Renamed element: &apos;grid&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;grid&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;{App.java[App~main~\[QString;@grid!697!742!706!709!\[\[I!0!false" name="matrix" references="true" stamp="1561232064377" version="1.0"/>
+</session>

@@ -1,0 +1,35 @@
+import java.util.ArrayList;
+
+public class App {
+
+	public static void main(String[] args) {
+		ArrayList<Integer> numbers = new ArrayList<Integer>();
+		//Adding elemnts to ArrayList
+		
+		numbers.add(10);
+		numbers.add(100);
+		numbers.add(40);
+		
+		//Retriveing elements from ArrayList
+		
+		System.out.println(numbers.get(0));
+		
+		//Indexed for loop iteration
+		for(int i =0;i<numbers.size();i++) {
+			System.out.println(numbers.get(i));
+		}
+		// Removing items (careful)
+		numbers.remove(numbers.size()-1);
+		
+		//Removing from begining (very slow)
+		
+		numbers.remove(0);
+		//Not indexed for loop iteration
+		for(Integer i :numbers) {
+			System.out.println(i);
+		}
+		// List Interface
+		
+		List<String> value = new ArrayList<String>(); 
+	}
+}

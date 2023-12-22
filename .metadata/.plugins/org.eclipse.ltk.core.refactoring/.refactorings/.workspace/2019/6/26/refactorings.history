@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Construtors&apos; to &apos;Constructors&apos;" description="Rename resource &apos;Construtors&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/Construtors" name="Constructors" stamp="1561754147752" updateReferences="true"/>
+</session>

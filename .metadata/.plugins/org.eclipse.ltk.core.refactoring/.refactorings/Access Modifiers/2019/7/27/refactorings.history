@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Machine&apos; to &apos;Plant&apos;&#x0D;&#x0A;- Original project: &apos;Access Modifiers&apos;&#x0D;&#x0A;- Original element: &apos;Machine&apos;&#x0D;&#x0A;- Renamed element: &apos;Plant&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Machine&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{Machine.java[Machine" matchStrategy="1" name="Plant" qualified="false" references="true" similarDeclarations="false" stamp="1562386710499" textual="false" version="1.0"/>
+</session>

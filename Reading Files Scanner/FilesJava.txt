@@ -1,0 +1,20 @@
+3
+line one 
+line two
+line three 
+
+
+cat
+dog 
+elephant 
+fox 
+
+
+
+banana 
+apple 
+mango
+
+Zebra
+
+i want it 
